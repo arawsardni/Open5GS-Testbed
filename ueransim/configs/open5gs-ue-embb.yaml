@@ -31,6 +31,7 @@ tunNetmask: '255.255.255.0'
 
 # List of gNB IP addresses for Radio Link Simulation
 gnbSearchList:
+  - 172.21.207.82
   - 127.0.0.1
   - 10.34.4.130
 
@@ -55,11 +56,9 @@ sessions:
     slice:
       sst: 1
 
-# Configured NSSAI for this UE by HPLMN
 configured-nssai:
   - sst: 1
 
-# Default Configured NSSAI for this UE
 default-nssai:
   - sst: 1
 
